@@ -1,0 +1,24 @@
+{
+  "name": "choreographerjs",
+  "main": "choreographer.min.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/ajgreenb/Choreographer",
+  "authors": [
+    "Aaron Greenberg <aaron@greenberg.io>"
+  ],
+  "description": "A JavaScript library for orchestrating complex sequences of browser animations.",
+  "keywords": [
+    "animation",
+    "javascript",
+    "choreograph",
+    "animate"
+  ],
+  "license": "GPLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

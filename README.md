@@ -12,6 +12,10 @@ Download the built file:
 
 `$ npm install choreographerjs`
 
+or
+
+`$ bower install choreographerjs`
+
 ### Documentation
 
 Choreographer's raison d'être is to synchronize a long sequence of animations. It was designed to choreograph CSS animations, but should also work for JavaScript animations. It works by storing a map ("choreography") from times to (arrays of) animation functions. When the `perform()` method is invoked, the Choreographer loops through the keys of the map (which correspond to execution times) and creates a timeout that runs the stored animation functions at that time/key.
