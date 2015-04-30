@@ -8,13 +8,8 @@ It sprouted from the development [Randy](https://github.com/yaybrigade/randy)'s 
 
 ### Installation
 
-Download the built file:
-
-`$ npm install choreographerjs`
-
-or
-
-`$ bower install choreographerjs`
+* `$ npm install choreographerjs`
+* `$ bower install choreographerjs`
 
 ### Documentation
 
