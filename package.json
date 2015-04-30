@@ -1,5 +1,5 @@
 {
-  "name": "Choreographer",
+  "name": "choreographerjs",
   "version": "0.1.0",
   "description": "A JavaScript library for orchestrating complex sequences of browser animations.",
   "main": "choreographer.js",
