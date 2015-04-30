@@ -57,6 +57,21 @@ Adds a function at the current time, which is stored as a property of the `Chore
 * `fn` — An animation function to add to the choreography.
 * `duration` — An optional duration corresponding to the length of time it takes for `fn` to complete, in milliseconds.
 
+#### Pause
+
+`Choreographer.pause([duration]);`
+
+Creates a pause in the choreography by increasing the current time without adding any functions.
+
+##### Arguments
+* `duration` — How long to pause (in milliseconds). Optional, and defaults to the value passed in the constructor.
+
+#### Perform
+
+`Choreographer.perform();`
+
+Executes the functions stored in the choreography
+
 ### License
 
 GPLv2
