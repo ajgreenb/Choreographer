@@ -1,0 +1,30 @@
+{
+  "name": "Choreographer",
+  "version": "0.1.0",
+  "description": "A JavaScript library for orchestrating complex sequences of browser animations.",
+  "main": "choreographer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajgreenb/Choreographer.git"
+  },
+  "keywords": [
+    "animation",
+    "javascript",
+    "choreograph",
+    "animate"
+  ],
+  "author": "Aaron Greenberg",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/ajgreenb/Choreographer/issues"
+  },
+  "homepage": "https://github.com/ajgreenb/Choreographer",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.2.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
