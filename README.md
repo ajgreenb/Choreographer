@@ -10,7 +10,7 @@ It sprouted from the development [Randy](https://github.com/yaybrigade/randy)'s 
 
 Download the built file:
 
-`$ wget https://raw.github.com/choreographer.js`
+`$ wget https://raw.githubusercontent.com/ajgreenb/Choreographer/master/choreographer.min.js`
 
 ### Documentation
 
