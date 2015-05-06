@@ -11,6 +11,11 @@ It sprouted from the development [Randy](https://github.com/yaybrigade/randy)'s 
 * `$ npm install choreographerjs`
 * `$ bower install choreographerjs`
 
+Or, possibly the easiest way:
+
+* `curl -O http://choreographerjs.tk/choreographer.js`
+* `curl -O http://choreographerjs.tk/choreographer.min.js`
+
 ### Documentation
 
 Choreographer's raison d'être is to synchronize a long sequence of animations. It was designed to choreograph CSS animations, but should also work for JavaScript animations. It works by storing a map ("choreography") from times to (arrays of) animation functions. When the `perform()` method is invoked, the Choreographer loops through the keys of the map (which correspond to execution times) and creates a timeout that runs the stored animation functions at that time/key.
